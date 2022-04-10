@@ -5,6 +5,7 @@
 
 .features-left {
     padding: 65px ;
+    background-color: #0CA9F5;
 }
 .features-right {
     padding: 45px 65px ;
@@ -13,9 +14,20 @@ p{
     font-size: 13px;
 }
 
+.features-left .fas{
+    color: #0CA9F5;
+}
+.features-right .fas{
+    background-color: #0CA9F5;
+}
+
+.texts p {
+    line-height: 30px;
+}
 
 
-@media (min-width: 423px) and (max-width: 991px) {
+
+@media (min-width: 300px) and (max-width: 991px) {
     .navigation{
         display: block;
         padding: 0px 25px;

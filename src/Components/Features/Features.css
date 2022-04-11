@@ -1,24 +1,34 @@
-.navigation{
-    display: none;
-}
 
 
 .features-left {
-    padding: 65px ;
-    background-color: #0CA9F5;
+    padding: 75px ;
+    background-color: rgb(12, 169, 245);
 }
 .features-right {
-    padding: 45px 65px ;
+    padding: 45px 75px ;
 }
-p{
-    font-size: 13px;
-}
+
 
 .features-left .fas{
     color: #0CA9F5;
+    background-color: white;
 }
+
+.features-left .fas:hover{
+    background-color: #0CA9F5;
+    color: white;
+    cursor: pointer;
+}
+
 .features-right .fas{
     background-color: #0CA9F5;
+    color: white;
+}
+
+.features-right .fas:hover{
+    color: #0CA9F5;
+    background-color: white;
+    cursor: pointer;
 }
 
 .texts p {
@@ -28,21 +38,9 @@ p{
 
 
 @media (min-width: 300px) and (max-width: 991px) {
-    .navigation{
-        display: block;
-        padding: 0px 25px;
-    }
-    .navbar-light .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(2, 117, 216)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    }
-    .navbar-toggler {
-        border: none;
-    }
-    .image-icons{
-        display: none;
-    }
     .features-left {
         padding: 35px ;
+        border-radius: 5px;
     }
     .features-right {
         padding: 35px ;

@@ -11,8 +11,8 @@ const Features = () => {
                         <p className='w-75'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, inventore vitae doloremque laudantium dicta esse autem</p>
                         </div>
 
-                        <p><i className="fas fa-search p-3 bg-white  rounded-circle me-3"></i>Amet vitae pellentesque iaculis metus est</p>
-                        <p><i className="fas fa-lock p-3 bg-white  rounded-circle me-3"></i>Orci nunc eu cras amet cursus leo in elit</p>
+                        <p><i className="fas fa-search p-3   rounded-circle me-3"></i>Amet vitae pellentesque iaculis metus est</p>
+                        <p><i className="fas fa-lock p-3   rounded-circle me-3"></i>Orci nunc eu cras amet cursus leo in elit</p>
                     </Col>
 
                     <Col lg='6' className='text-black bg-white rounded   align-items-center' >
@@ -23,7 +23,7 @@ const Features = () => {
                         <div className='features-right'>
                         <div className="feature d-flex align-items-center mb-4">
                             <div className="icon">
-                            <i className="fas fa-trash p-3  text-white rounded-circle me-3"></i>
+                            <i className="fas fa-trash p-3   rounded-circle me-3"></i>
                             </div>
                             <div className="texts">
                                 <h6 className='fw-bold'>Features</h6>
@@ -32,7 +32,7 @@ const Features = () => {
                         </div>
                         <div className="feature d-flex align-items-center mb-4">
                             <div className="icon">
-                            <i className="fas fa-trash p-3  text-white rounded-circle me-3"></i>
+                            <i className="fas fa-trash p-3   rounded-circle me-3"></i>
                             </div>
                             <div className="texts">
                                 <h6 className='fw-bold'>Features</h6>
@@ -41,7 +41,7 @@ const Features = () => {
                         </div>
                         <div className="feature d-flex align-items-center ">
                             <div className="icon">
-                            <i className="fas fa-trash p-3  text-white rounded-circle me-3"></i>
+                            <i className="fas fa-trash p-3   rounded-circle me-3"></i>
                             </div>
                             <div className="texts">
                                 <h6 className='fw-bold'>Features</h6>
